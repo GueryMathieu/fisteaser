@@ -12,10 +12,6 @@
 
     <main>
 
-        <div class="logo">
-            <img src="assets/img/logo3.jpg" alt="">
-        </div>
-
         <div class="container">
 
             <h1>Opening coming soon :</h1>
