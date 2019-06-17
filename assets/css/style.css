@@ -1,22 +1,25 @@
-header {
-    background-color: chartreuse;
+img{
+    width: 360px;
+    height: 220px;
 }
-
-
-
 
 .container{
     text-align: center;
-    margin-top: 50%;
-    margin-bottom: 50%;
+    padding: 10% 0%;
+    background-color: #FFFDFF;
 }
 
-footer {
-    margin: 0%;
-    background-color: blueviolet;
-
+#countdown{
+    font-size: 5vh;
+    margin: 10%;
 }
 
+button{
+    margin: 10%;
+}
 
-
-
+footer{
+    padding: 10%;
+    margin-top: 5%;
+    text-align: center;
+}
