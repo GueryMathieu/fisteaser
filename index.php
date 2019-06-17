@@ -11,34 +11,41 @@
 
 <body>
 
+    <header>
+        
+    </header>
+
     <main>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-            
-                <h1>Opening coming soon :</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
                 
-                <div id="countdown"></div>
+                    <h1>Opening coming soon :</h1>
+                    
+                        <div id="countdown"></div>
 
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">FISTE</button>
 
-                <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-sm">
-                        <div class="modal-content">
-                            ...
-                        </div>
-                    </div>
+                        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                    ...
+                                    </div>
+                                </div>
+                            </div>
+
+                
+
                 </div>
-
             </div>
         </div>
-    </div>
 
     </main>
 
 
     <footer>
+    © Copyright Web 15 Academy All rights reserved 2019.
 
     </footer>
 
