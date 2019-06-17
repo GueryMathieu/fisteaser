@@ -1,3 +1,5 @@
+
+
 img{
     width: 360px;
     height: 220px;
@@ -6,7 +8,7 @@ img{
 .container{
     text-align: center;
     padding: 10% 0%;
-    background-color: #FFFDFF;
+    background-color:  #e3101c;
 }
 
 #countdown{
@@ -20,6 +22,6 @@ button{
 
 footer{
     padding: 10%;
-    margin-top: 5%;
     text-align: center;
+    background-color: rgb(255, 136, 0);
 }

@@ -15,5 +15,9 @@
     "url": "https://github.com/GueryMathieu/fisteaser/issues"
   },
   "homepage": "https://github.com/GueryMathieu/fisteaser#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {},
   "description": ""
 }
