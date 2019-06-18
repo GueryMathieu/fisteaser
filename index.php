@@ -18,6 +18,7 @@
     <main>
 
         <div class="container">
+
             <div class="row">
                 <div class="col-12">
                 
@@ -27,22 +28,52 @@
                 </div>
             </div>
 
-    <button id="myBtn">newsletter</button>
+            <button id="myBtn">Join the Fist</button>
 
-    <div id="myModal" class="modal">
+            <div class="row">
+                <div class="col-12">
 
-        <div class="modal-content">
-        <span class="close">&times;</span>
-            <p>new fister !!!</p>
-        </div>
+                    <div id="myModal" class="modal">
 
-    </div>            
-                    
+                        <div class="modal-content">
 
+                            <span class="close">&times;</span>
+
+                            <h2>Join Newsletter</h2>
+
+                            <p>
+                                <label for="Name">Name
+                                    <input type="text" name="Name" id="Name">
+                                </label>
+                            </p>
+
+                            <p>
+                                <label for="Firstname">Firstname
+                                    <input type="text" name="Firstname" id="Firstname">
+                                </label>
+                            </p> 
+
+                            <p>
+                                <label for="Mail">Email
+                                    <input type="email" name="Mail" id="Mail">
+                                </label>
+                            </p>
+
+                            <button type="submit" id="submit">Join the Fist</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+                  
+        </div>             
 
     </main>
 
     <footer>
+
         <div class="container">
             <div class="row">
                 <div class="col-12">
