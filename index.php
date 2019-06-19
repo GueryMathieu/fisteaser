@@ -4,7 +4,13 @@
     $db_admin = 'admin';
     $db_pass = 'plop';
 
+    try
+    {}
 
+    catch(Exception $e)
+    {
+            die('Erreur : '.$e->getMessage());
+    }
 
 
     
