@@ -4,15 +4,7 @@
     $db_admin = 'admin';
     $db_pass = 'plop';
 
-    $pdo = new PDO("mysql:dbname=$db_name;host=$db_host", $db_admin, $db_pass);
 
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
-
-    $req = $pdo->query("SELECT * FROM user ");
-    $query = $req->fetchAll();
-
-    var_dump($query[1]->name);
 
 
     
@@ -63,20 +55,20 @@
                             <h2>Join Newsletter</h2>
 
                             <p>
-                                <label for="Name">Name
-                                    <input type="text" name="Name" id="Name">
+                                <label for="name">Name
+                                    <input type="text" name="name" id="name">
                                 </label>
                             </p>
 
                             <p>
-                                <label for="Firstname">Firstname
-                                    <input type="text" name="Firstname" id="Firstname">
+                                <label for="firstname">Firstname
+                                    <input type="text" name="firstname" id="firstname">
                                 </label>
                             </p> 
 
                             <p>
-                                <label for="Mail">Email
-                                    <input type="email" name="Mail" id="Mail">
+                                <label for="mail">Email
+                                    <input type="email" name="mail" id="mail">
                                 </label>
                             </p>
 
