@@ -1,13 +1,19 @@
 img{
     width: 360px;
-    height: 220px;
+    height: 215px;
 }
 
 .container{
     text-align: center;
-    padding: 10% 0;
-    margin: 0 0;
+    padding: 19% 0;
+    margin: 0;
     background-color:  #e3101c;
+}
+
+.errors{
+    color: blueviolet;
+    background-color: chartreuse;
+    padding: 6px;
 }
 
 #countdown{
@@ -16,11 +22,11 @@ img{
 }
 
 button{
-    margin: 5% 0;
+    margin: 4% 0;
 }
 
 footer{
-    padding: 5% 0;
+    padding: 0;
     text-align: center;
-    background-color: rgb(255, 136, 0);
+    background-color: #e3101c;
 }
